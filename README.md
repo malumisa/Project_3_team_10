@@ -26,7 +26,7 @@ Run random numbers to select Cities in North America.
 ### Project team approach
 
 
-### DEscription of the data
+### Description of the data
 
 
 ### Data sources
