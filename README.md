@@ -4,7 +4,7 @@
 
 ### Background
 The weather project is aimed at visualizing key weather parameters like temperature, precipitation, and weather types across various cities in North America. From the interactive dashboard, users can explore weather variables across different locations The data set is derived from weather api
-Weather Xteristics in North America - A study of 100 prominent cities:
+Weather characteristics in North America - A study of 100 prominent cities:
 Run random numbers to select Cities in North America.
 Create a Weather Monitoring Dashboard.
 Create Mapping based on Humidity/Temperature
