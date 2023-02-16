@@ -40,3 +40,11 @@ The weather project is aimed at visualizing key weather parameters like temperat
 
 
 ### Conclusions
+
+
+### Next steps
+
+### Presenttion Slidedeck
+
+### Links
+https://www.weatherapi.com/login.aspx
