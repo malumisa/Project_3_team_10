@@ -1,3 +1,5 @@
+console.log(cities);
+
 const options = {
     method: 'GET',
     url:'http://api.weatherapi.com/v1/current.json?key=29ad3cbdd70c4198ac704843231502 &q=bulk.json'
@@ -15,9 +17,6 @@ const options = {
   d3.json(options).then(function(data) {
   console.log(data);
 });
-
-// let x = Math.floor((Math.random() * 100) + 1);
-// console.log(x)
 
 
 
