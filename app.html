@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather Forecast: Project 3 Team 10</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather03-512.png" type="image/x-icon">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="style2.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+
+  <h1>Weather Forecast: Project 3 Team 10</h1>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="static/js/cities.js"></script>
+  <script src="static/js/plots.js"></script>
+  <script src="static/js/style2.css"></script>
+
+  <div class="container">
+
+    <div class="city" id="city"></div>
+    <div class="date" id="date"></div>
+    <div class="temp"><span id="temp"></span><sup>°C</sup></div>
+
+    <div class="weather">
+   <div><img id="icon" class="icon">
+    <div class="status" id="status"></div>
+   </div>
+   <div class="inputs">
+   <input type="text" id="location" placeholder="Type City Name..">
+   <input type="submit" value="Check Weather" onclick="locate()">
+</div>
+</div>
+
+<div class="secondary">
+<div class="feelsLike">
+    Feels Like<br>
+    <span id="feelsLike"></span>
+</div>
+<div class="windSpeed">
+  Wind Speed<br>
+  <span id="windSpeed"></span>
+</div>
+</div>
+  
+</div>
+  
+</body>
+
+</html>
