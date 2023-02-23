@@ -21,6 +21,7 @@ Research Parameters:
 1. Is there any difference in temperature of various cities and what factors affect them? 
 2. Does weather Parameters like pressure, humidity, rainfall Pressure, wind etc. affects the temperature of cities in Canada?
 3. 
+Observations:
 
 Data Sources:
 1. https://api.weather.gc.ca/
