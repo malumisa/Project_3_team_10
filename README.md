@@ -1,3 +1,7 @@
+
+
+
+
 Project 3: Weather Check- Canada
 Team 10
 
@@ -13,14 +17,18 @@ The following steps will be undertaken:
 * Validation (or rejection) of our hypothesis based on the evaluating results from analytical tools.
 Main Features:
 * HTML
-* Java Scripting
+* JavaScrip
 * Jupyter Notebook
 * CSS
-* API weather
+* Python Flask-powered API - API weather
+* SQL database
+* 
 Research Parameters:
 1. Is there any difference in temperature of various cities and what factors affect them? 
 2. Does weather Parameters like pressure, humidity, rainfall Pressure, wind etc. affects the temperature of cities in Canada?
-3. 
+3. Showcasing the population of each city in the form of bar graph.
+4. Is there any relation between latitude and Pressure.
+5. Weather Forecast of coming 5 days of each cities in Canada.
 Observations:
 
 Data Sources:
@@ -30,12 +38,6 @@ Data Sources:
 4. https://www.canada.ca/en/environment-climate-change/services/weather-general-tools-resources/how-we-use-observation-site/understanding-current-conditions-on-website.html
 5. https://en.wikipedia.org/wiki/Temperature_in_Canada
 6. https://www.kaggle.com/datasets/hemil26/canada-weather
-
-
-
-
-
-
-
+7. https://benjamin-libor.medium.com/a-curated-collection-of-over-150-apis-to-build-great-products-fdcfa0f361bc 
 
 
