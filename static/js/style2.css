@@ -4,7 +4,7 @@
   --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-  background-color: #222222;
+  background-color: #20c997;
   display: grid;
   place-items: center;
   padding: 1rem;
@@ -46,9 +46,9 @@ justify-content: center;
 justify-items: center;
 padding: 1.2rem;
 border-radius: 50px;
-background: #222222;
-box-shadow:   12px 12px 27px #1a1a1a,
-           -12px -12px 27px #2a2a2a;
+background: #277557;
+box-shadow:   12px 12px 27px #1c87c9,
+           -12px -12px 27px #1c87c9;
 position: relative;
 left: 20px;
 }
@@ -58,20 +58,20 @@ input {
   margin-top: 2em;
   border: none;
   padding: .8em;
-  background-color: #222222;
+  background-color: #277557;
   margin-bottom: -.8em;
   border-radius: .2em;
-  box-shadow:   6px 6px 6px #1a1a1a,
-           -6px -6px 6px #2a2a2a;
+  box-shadow:   6px 6px 6px #1c87c9,
+           -6px -6px 6px #1c87c9;
   color: aliceblue;
   width: 11rem;
 }
 input[type="submit"] {
   width: 11rem;
   height: 2.5em;
-  background-color: #222222;
-  box-shadow:  6px 6px 6px #1a1a1a,
-           -6px -6px 6px #2a2a2a;
+  background-color: #277557;
+  box-shadow:  6px 6px 6px #1c87c9,
+           -6px -6px 6px #1c87c9;
   color: #fff;
   cursor: pointer;
 }
@@ -100,8 +100,8 @@ input [type= "text"] {
   align-items: center;
   justify-content: space-evenly;
   margin-top: 2em;
-  box-shadow:  6px 6px 6px #1a1a1a,
-  -6px -6px 6px #2a2a2a;
+  box-shadow:  6px 6px 6px #1c87c9,
+  -6px -6px 6px #1c87c9;
   color: #fff;
   flex-direction: row;
   padding: .5em;

@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <body style="background-color:#d63384;"></body>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -16,15 +17,12 @@
 <body>
 
   <h1>Weather Forecast: Project 3 Team 10</h1>
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script src="static/js/cities.js"></script>
-  <script src="static/js/plots.js"></script>
-  <script src="static/js/style2.css"></script>
+  
 
   <div class="container">
 
     <div class="city" id="city"></div>
-    <div class="date" id="date"></div>
+    <div class="date" id="dat"></div>
     <div class="temp"><span id="temp"></span><sup>°C</sup></div>
 
     <div class="weather">
@@ -33,7 +31,7 @@
    </div>
    <div class="inputs">
    <input type="text" id="location" placeholder="Type City Name..">
-   <input type="submit" value="Check Weather" onclick="locate()">
+   <input type="submit" value="City Weather status" onclick="locate()">
 </div>
 </div>
 
@@ -49,7 +47,10 @@
 </div>
   
 </div>
-  
+<script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="static/js/cities.js"></script>
+  <script src="static/js/plots.js"></script>
+  <script src="static/js/style2.css"></script>
 </body>
 
 </html>
