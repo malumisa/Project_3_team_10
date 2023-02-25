@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Population by Canadian cities</title>
+    <title>Project 3 Team 3</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
     <div id="plot"></div>
+    
+    <select id="selDataset">
+    <option value="Cities Population">Population</option>
+    <option value="Cities Temperatures">Temperatures</option>
+    <option value="Cities Pressures">Pressures</option>
+    <option value="Cities WindSpeed">WindSpeed</option>
+    <option value="Cities Humidity">Humidity</option>
+    <option value="Cities Winddegree">Winddegree</option>
+    <option value="Feels Like">FeelsLike</option>
+    </select>
     <script src="cities.js"></script>
     <script src="visuals.js"></script>
 </body>
