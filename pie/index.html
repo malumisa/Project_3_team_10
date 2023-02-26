@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project 3 Team 10</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h2>Canadian Cities Weather</h2>
+    <p>Proportion of weather elements in 10 Canadian Cities in Real Time!</p>
+    <select id="selDataset">
+        <option value="Toronto">Toronto</option>
+        <option value="Oakville">Oakville</option>
+        <option value="Quebec">Quebec</option>
+        <option value="Winnipeg">Winnipeg</option>
+        <option value="Ottawa">Ottawa</option>
+        <option value="Montreal">Montreal</option>
+        <option value="Quebec">Quebec</option>
+        <option value="Calgary">Calgary</option>
+        <option value="Brampton">Brampton</option>
+        <option value="Vancouver">Vancouver</option>
+    </select>
+
+    <div id="pie"></div>
+
+    <p>Data Sources:<br />
+        <ul>
+            <li>
+                <a href="https://api.weather.gc.ca">MSC GeoMet — GeoMet-OGC-API</a>
+            </li>
+            <li>
+                <a href="https://worldpopulationreview.com/countries/cities/canada">Population of Cities in Canada 2023</a>
+            </li>
+            <li>
+                <a href="http://api.weatherapi.com">Weather API</a>
+            </li>
+            
+            </ul>
+    </p>
+    <script src="cities.js"></script>
+    <script src="plots.js"></script>
+</body>
+</html>

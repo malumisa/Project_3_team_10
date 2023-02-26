@@ -1,4 +1,4 @@
-id,city,country,pop2023,latitude,longitude,fill
+,city,country,pop2023,latitude,longitude,fill
 0,Toronto,Canada,2600000,43.7001,-79.4163,#3288bd
 1,Montreal,Canada,1600000,45.5088,-73.5878,#99d594
 2,Calgary,Canada,1019942,51.0501,-114.085,#99d594
