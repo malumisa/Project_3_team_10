@@ -1,7 +1,8 @@
-﻿Project 3: City Weather Status Canada
+Project 3: City Weather Status Canada
 Team 10
 
 Abstract:
+
 An API (Application Programming Interface) provides an interface for various programming languages that allows developers and programmers to integrate the data directly into their systems in the desired format in just a few steps. A weather data API is an Application Programming Interface that allows you to integrate real-time weather data and weather forecast data into your apps and websites. 
 
 The project's objective is to provide both an overview and details confirming this assumption. The overarching question focuses on how weather changes as related to factors affecting it.
