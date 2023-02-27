@@ -19,11 +19,11 @@ for(var i=0;i<cities.length;i++){
 });
 };
 
-let d = new Date();
-let date = d.getDate();
+let c = new Date();
+let date = c.getDate();
 // console.log(date)
 let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-let month = months[d.getMonth()];
+let month = months[c.getMonth()];
 let year = d.getFullYear();
 document.getElementById("dat").innerHTML = date + " " + month +" " +year;
 
