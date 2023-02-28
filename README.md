@@ -48,6 +48,19 @@ Research Parameters:
 6. Dashboard of Weather showing Temperature by putting the cites name.
 7. Observing the weather data for past 7 days of each cities.
 
+### Libraries and dependencies
+Flask powered API
+Bootstrap for styling the application
+Data stored in SQLite
+json
+plotly.graph_objs as go
+plotly.express as px
+plotly.offline as pyo
+html
+d3js
+leaflet
+
+
 Observations:
 • Mapping- The map distribution of cities in Canada using the weather elements as markers.
 ![image](https://user-images.githubusercontent.com/114265749/221611484-bee0e046-fca7-4278-ab54-2e057bc5035b.png)
@@ -69,13 +82,15 @@ Observations:
 
 
 Data Sources:
-1. https://api.weather.gc.ca/
-2. https://worldpopulationreview.com/countries/cities/canada
-3. https://api.weather.gc.ca/openapi?f=html3
-4. https://www.canada.ca/en/environment-climate-change/services/weather-general-tools-resources/how-we-use-observation-site/understanding-current-conditions-on-website.html
-5. https://en.wikipedia.org/wiki/Temperature_in_Canada
-6. https://www.kaggle.com/datasets/hemil26/canada-weather
-7. https://benjamin-libor.medium.com/a-curated-collection-of-over-150-apis-to-build-great-products-fdcfa0f361bc 
+1. Bausch T, Gartner WC, Humpe A. (2021). How weather conditions affect guest arrivals and duration of stay: An alpine destination case.Int J Tourism Res.    2021;23:1006–1026.
+2. https://api.weather.gc.ca/
+3. https://worldpopulationreview.com/countries/cities/canada
+4. https://api.weather.gc.ca/openapi?f=html3
+5. https://www.canada.ca/en/environment-climate-change/services/weather-general-tools-resources/how-we-use-observation-site/understanding-current-conditions-on-website.html
+6. https://en.wikipedia.org/wiki/Temperature_in_Canada
+7. https://www.kaggle.com/datasets/hemil26/canada-weather
+8. https://www.weatherapi.com/
+
 
 
 
