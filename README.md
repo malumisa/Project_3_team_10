@@ -51,7 +51,7 @@ Research Parameters:
 ### Libraries and dependencies
     Flask powered API
     Bootstrap for styling the application
-    Data stored in SQLite
+    SQLite
     json
     plotly.graph_objs as go
     plotly.express as px
