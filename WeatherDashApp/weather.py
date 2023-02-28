@@ -97,7 +97,7 @@ def get_data(country, city, days):
         conn = get_db()
         c = conn.cursor()
         c.execute(
-            "SELECT * FROM weather WHERE country=? AND city=? ORDER BY date ASC LIMIT ?",
+            "SELECT * FROM weather WHERE country=? AND city=? AND date>= date('now') ORDER BY date ASC LIMIT ?",
             (country, city, days),
         )
         data = c.fetchall()
