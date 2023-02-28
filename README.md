@@ -49,16 +49,16 @@ Research Parameters:
 7. Observing the weather data for past 7 days of each cities.
 
 ### Libraries and dependencies
-Flask powered API
-Bootstrap for styling the application
-Data stored in SQLite
-json
-plotly.graph_objs as go
-plotly.express as px
-plotly.offline as pyo
-html
-d3js
-leaflet
+    Flask powered API
+    Bootstrap for styling the application
+    Data stored in SQLite
+    json
+    plotly.graph_objs as go
+    plotly.express as px
+    plotly.offline as pyo
+    html
+    d3js
+    leaflet
 
 
 Observations:
